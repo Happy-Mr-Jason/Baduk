@@ -1,0 +1,12 @@
+.panel{
+  background-image: url('images/panel.png');
+  background-repeat: no-repeat;
+  background-size: 50rem 50rem;
+  background-position-x: center;
+  height: 50rem;
+  position: relative;
+}
+
+.point{
+  position: absolute;
+}

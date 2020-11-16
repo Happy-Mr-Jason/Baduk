@@ -1,0 +1,125 @@
+div#gomain {
+    display: inline;
+    clear: both;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/*
+
+div#panel-pointer {
+    position: absolute;
+    display: block;
+    background: #bbbb1155;
+}
+
+div#panel-line {
+    position: absolute;
+    display: block;
+     top: 15px;
+    left: 15px; 
+    top: 1rem;
+    left: 1rem;
+    display: inline-flex;
+    background: #bbbb1155;
+}
+
+*/
+
+div#panel-line {
+    position: relative;
+    text-align: center;
+    top: 80px;
+    left: 80px;
+    margin: auto;
+}
+
+div#panel-pointer {
+    position: relative;
+    text-align: center;
+    top: -660px;
+    left: 60px;
+}
+
+table {
+    align-self: center;
+    display: block;
+}
+
+#panel-line td.pointer {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background: #bbbb1155;
+}
+
+#panel-pointer td.pointer {
+    border: 1px hidden #bbbb1155;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background: #bbbb1155;
+}
+
+.pointer p {
+    padding: 0;
+    margin: 0;
+}
+
+/* div#control {
+    display: block;
+    border: 1px solid black;
+    top: 600px;
+    width: 200px;
+    height: 200px;
+} */
+
+div.text-center {
+    display: inline;
+    text-align: center;
+}
+
+div#current {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+
+div.dot {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+
+div.stone.white {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-image: radial-gradient(farthest-corner at 75% 80%, white, #dddddd, #bbbbbb, #999999);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.5rem;
+    color: black;
+}
+
+div.stone.black {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-image: radial-gradient(farthest-corner at 75% 80%, white, gray, black, black);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.5rem;
+    color: white;
+}
