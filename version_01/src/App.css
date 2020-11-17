@@ -1,31 +1,9 @@
-div#gomain {
-  display: inline;
-  clear: both;
-  position: relative;
-  width: 100%;
+h1{
+  margin: 10px;
+}
+.panel-line {
   text-align: center;
 }
-
-/*
-
-div#panel-pointer {
-  position: absolute;
-  display: block;
-  background: #bbbb1155;
-}
-
-div#panel-line {
-  position: absolute;
-  display: block;
-   top: 15px;
-  left: 15px; 
-  top: 1rem;
-  left: 1rem;
-  display: inline-flex;
-  background: #bbbb1155;
-}
-
-*/
 
 .pointer-table {
   background-repeat: no-repeat;
@@ -46,59 +24,104 @@ div#panel-line {
   /* background: #bbbb1155; */
 }
 
-.pointer p {
-  padding: 0;
-  margin: 0;
-}
-
-/* div#control {
-  display: block;
-  border: 1px solid black;
-  top: 600px;
-  width: 200px;
-  height: 200px;
-} */
-
-div.text-center {
-  display: inline;
+.panel-control {
   text-align: center;
+  margin: 5px 5px;
+  padding: 0;
 }
 
-div#current {
-  display: block;
-  width: 2rem;
-  height: 2rem;
+.control-card {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px 4px;
+  margin: 0px 5px;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
 }
 
-/* div.dot {
+.card-title {
   display: block;
-  margin: auto;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: black;
-} */
+  height: 50px;
+  line-height: 50px;
+  background-color: blue;
+  color: white;
+}
 
-div.stone.white {
+.card-body {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+
+.btn {
+  border: 1px solid black;
+  width: 80px;
+  height: 30px;
+}
+
+.btn.visible {
+  background-color: rgb(0, 200, 0);
+}
+
+.stone {
   display: block;
   margin: auto;
+  padding: auto;
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  background-image: radial-gradient(farthest-corner at 75% 80%, white, #dddddd, #bbbbbb, #999999);
+  line-height: 36px;
   text-align: center;
   font-size: 0.5rem;
+}
+
+.stone.white {
+  background-image: radial-gradient(
+    farthest-corner at 75% 80%,
+    white,
+    #dddddd,
+    #bbbbbb,
+    #999999
+  );
   color: black;
 }
 
-div.stone.black {
-  display: block;
-  margin: auto;
+.stone.black {
+  background-image: radial-gradient(
+    farthest-corner at 75% 80%,
+    white,
+    gray,
+    black,
+    black
+  );
+  color: white;
+}
+
+.stone-next {
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  background-image: radial-gradient(farthest-corner at 75% 80%, white, gray, black, black);
-  text-align: center;
-  font-size: 0.5rem;
+}
+
+.stone-next.white{
+  background-image: radial-gradient(
+    farthest-corner at 75% 80%,
+    white,
+    #dddddd,
+    #bbbbbb,
+    #999999
+  );
+  color: black;
+}
+
+.stone-next.black{
+  background-image: radial-gradient(
+    farthest-corner at 75% 80%,
+    white,
+    gray,
+    black,
+    black
+  );
   color: white;
 }
